@@ -1,2 +1,7 @@
-# Introduccion-a-los-Sistemas-Distribuidos-75.43
-Repositorio de material para Introducción a los Sistemas Distribuidos (75.43), 2023C1, Facultad de Ingeniería de la Universidad de Buenos Aires
+# TP Opcional: PING
+
+Código para el procesamiento de datos de la salida de un comando *ping*.
+
+Se recomienda correr el siguiente comando para preparar los archivos de entrada: ´´´ping host | while read pong; do echo "$(date): $pong"; done´´´
+
+Se visualizan gráficos en escala lineal y log-log.

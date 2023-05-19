@@ -1,0 +1,38 @@
+Fri May 19 11:17:13 -03 2023: PING cp-algorithms.com (199.36.158.100): 56 data bytes
+Fri May 19 11:17:13 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=0 ttl=57 time=21.383 ms
+Fri May 19 11:17:14 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=1 ttl=57 time=37.506 ms
+Fri May 19 11:17:15 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=2 ttl=57 time=43.186 ms
+Fri May 19 11:17:16 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=3 ttl=57 time=17.621 ms
+Fri May 19 11:17:17 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=4 ttl=57 time=20.736 ms
+Fri May 19 11:17:18 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=5 ttl=57 time=20.929 ms
+Fri May 19 11:17:19 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=6 ttl=57 time=23.452 ms
+Fri May 19 11:17:20 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=7 ttl=57 time=64.575 ms
+Fri May 19 11:17:21 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=8 ttl=57 time=305.710 ms
+Fri May 19 11:17:22 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=9 ttl=57 time=131.975 ms
+Fri May 19 11:17:23 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=10 ttl=57 time=61.742 ms
+Fri May 19 11:17:24 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=11 ttl=57 time=114.636 ms
+Fri May 19 11:17:25 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=12 ttl=57 time=43.655 ms
+Fri May 19 11:17:26 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=13 ttl=57 time=16.574 ms
+Fri May 19 11:17:27 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=14 ttl=57 time=15.931 ms
+Fri May 19 11:17:28 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=15 ttl=57 time=15.387 ms
+Fri May 19 11:17:29 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=16 ttl=57 time=34.590 ms
+Fri May 19 11:17:30 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=17 ttl=57 time=182.413 ms
+Fri May 19 11:17:31 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=18 ttl=57 time=43.938 ms
+Fri May 19 11:17:32 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=19 ttl=57 time=77.648 ms
+Fri May 19 11:17:33 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=20 ttl=57 time=98.436 ms
+Fri May 19 11:17:34 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=21 ttl=57 time=156.637 ms
+Fri May 19 11:17:35 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=22 ttl=57 time=189.517 ms
+Fri May 19 11:17:36 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=23 ttl=57 time=20.839 ms
+Fri May 19 11:17:37 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=24 ttl=57 time=20.804 ms
+Fri May 19 11:17:38 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=25 ttl=57 time=20.849 ms
+Fri May 19 11:17:39 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=26 ttl=57 time=55.801 ms
+Fri May 19 11:17:40 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=27 ttl=57 time=41.889 ms
+Fri May 19 11:17:41 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=28 ttl=57 time=20.142 ms
+Fri May 19 11:17:42 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=29 ttl=57 time=15.197 ms
+Fri May 19 11:17:43 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=30 ttl=57 time=46.305 ms
+Fri May 19 11:17:44 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=31 ttl=57 time=91.854 ms
+Fri May 19 11:17:45 -03 2023: 64 bytes from 199.36.158.100: icmp_seq=32 ttl=57 time=13.774 ms
+Fri May 19 11:17:46 -03 2023: 
+Fri May 19 11:17:46 -03 2023: --- cp-algorithms.com ping statistics ---
+Fri May 19 11:17:46 -03 2023: 33 packets transmitted, 33 packets received, 0.0% packet loss
+Fri May 19 11:17:46 -03 2023: round-trip min/avg/max/stddev = 13.774/63.201/305.710/64.776 ms
