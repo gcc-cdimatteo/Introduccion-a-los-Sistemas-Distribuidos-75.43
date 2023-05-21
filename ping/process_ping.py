@@ -1,11 +1,12 @@
 import matplotlib.pyplot as plt
+import numpy as np
 
 CAMPUS = "campusgrado.fi.uba.ar"
 CAMPUS_FILENAME = "campus"
 GOOGLE = "google.com.ar"
 GOOGLE_FILENAME = "google"
 
-PATH = "/Users/cdimatteo/Documents/FIUBA/Introducción a los Sistemas Distribuidos (75.43)/ping/"
+PATH = "/Users/cdimatteo/Documents/FIUBA/Introduccion-a-los-Sistemas-Distribuidos-75.43/ping/"
 PING_RESULT_LENGTH = 14
 STATICS_RESULT_LENGTH = 15
 DATE_INITIAL_POS = 0
@@ -46,36 +47,34 @@ def read_output(path: str) -> tuple[str, dict]:
     
     return ip_address, output
 
-def plot_output(x, y, host_pinged, file_name) -> None:
+def plot_hist(y, host_pinged, path):
     plt.clf()
     plt.figure(figsize=(11,8))
     plt.grid(True)
-    plt.hist(y, bins=1000, alpha=1, log=True, color="hotpink")
+    plt.hist(y, bins=30,  log=True, color="hotpink", edgecolor="black", linewidth=1)
+    plt.ylabel("Cantidad de Paquetes Recibidos")
+    plt.xlabel("Round Trip Time [ms]")
     plt.title(f"Distribución de PING a {host_pinged} en Escala Lineal")
     plt.autoscale(True)
-    plt.savefig(PATH + file_name + "_lineal")
+    plt.savefig(path + "_lineal")
 
+def plot_loglog(x, y, host_pinged, path):
     plt.clf()
     plt.figure(figsize=(11,8))
     plt.grid(True)
-    plt.loglog(x, y, color="mediumorchid")
+    plt.hist(y, bins=30,  log=True, color="hotpink", edgecolor="black", linewidth=1)
+    plt.xscale("log")
+    plt.yscale("log")
+    plt.ylabel("Cantidad de Paquetes Recibidos")
+    plt.xlabel("Round Trip Time [ms]")
     plt.title(f"Distribución de PING a {host_pinged} en Escala Log-Log")
     plt.autoscale(True)
-    plt.savefig(PATH + file_name + "_loglog")
+    plt.savefig(path + "_loglog")
 
-def plot_both_log_log(x_campus, y_campus, x_google, y_google) -> None:
-    file_path = PATH + CAMPUS_FILENAME + "_" + GOOGLE_FILENAME
+def plot_output(x, y, host_pinged, file_name) -> None:
+    plot_hist(y, host_pinged, PATH + file_name)
 
-    plt.clf()
-    plt.figure(figsize=(9,6))
-    plt.grid(True)
-    plt.loglog(x_campus, y_campus, color="darkorange", label="campus")
-    plt.loglog(x_google, y_google, color="lightseagreen", label="google")
-    plt.title(f"Distribución de PING a {CAMPUS} y {GOOGLE} en Escala Log-Log")
-    plt.autoscale(True)
-    plt.legend()
-    plt.savefig(file_path + "_loglog")
-
+    plot_loglog(x, y, host_pinged, PATH + file_name)
 
 def get_x_y(output):
     y = list(map(lambda l: l[1], output.values()))
@@ -92,7 +91,5 @@ def main():
     ip_address, output_google = read_output(PATH + GOOGLE_FILENAME + ".txt")
     x_google, y_google = get_x_y(output_google)
     plot_output(x_google, y_google, GOOGLE, GOOGLE_FILENAME)
-
-    plot_both_log_log(x_campus, y_campus, x_google, y_google)
 
 main()
