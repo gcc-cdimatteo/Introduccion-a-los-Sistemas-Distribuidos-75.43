@@ -7,7 +7,7 @@ Repositorio de material para Introducción a los Sistemas Distribuidos (75.43), 
 [Conversor de Imágenes en formato .HEIC](http://www.iloveimg.com/)
 
 ## Agradecimientos
-Por lejos de las mejores materias que cursé en la facultad. Voy a extrañar los viernes de teórica con Hamelin y ver a mi amigo @Tomas-Apaldetti y la persona más linda del mundo @franorquera. Gracias por acompañarme otro cuatrimestre exitoso más! ❤️
+Por lejos de las mejores materias que cursé en la facultad. Voy a extrañar los viernes de teórica con Hamelin y ver a mi amigo @Tomas-Apaldetti. Gracias por acompañarme otro cuatrimestre exitoso más! ❤️
 
 ## Coffee Time
 Si el material te es de utilidad, [invitame un cafecito](https://cafecito.app/gcc-cdimatteo) :)
